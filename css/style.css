@@ -1,0 +1,39 @@
+body{
+	background:#ccc;
+}
+h1{
+	font-size:36px;
+	font-family: helvetica, arial, sans-serif;
+	position: absolute;
+	top:35%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+code{
+	font-size: 18px;
+	color:#FFF;
+	background:#001800;
+	text-align: center;
+	height:22px;
+	width:320px;
+	padding: 15px;
+	border-radius: 20px;
+	border: 2px solid #eee;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+::selection {
+  background: #00ee00;
+}
+::-moz-selection {
+  background: #00ee00;
+}
+.dragMe{
+	position: absolute;
+	bottom:0;
+	right: -50px;
+}
